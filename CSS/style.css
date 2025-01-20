@@ -26,6 +26,52 @@ header{
     height: 100vh;
     position: relative;
 }
+
+/* Banner */
+.banner{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    z-index: 4;
+}
+.banner h1{
+    font-family: "Mooli", cursive;
+    font-size: 13rem;
+    color: #fff;
+    text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.banner h3{
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    margin: 0 0 3rem 1rem;
+}
+
+.banner button{
+    width: 15rem;
+    height: 5rem;
+    background: linear-gradient(to right, #aa3fec, #8430ea);
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+}
+
+.banner button:hover{
+    transform:translateY(-.2rem)
+}
+/* End of Banner */
 /* Background */
 .backgrounds div{
  position:absolute;
